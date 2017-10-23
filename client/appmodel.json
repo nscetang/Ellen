@@ -47,7 +47,7 @@
     "type": "object",
     "comment": "viewissues",
     "properties": {
-      "viewissues": {
+      "IssuesList": {
         "type": "array",
         "items": {
           "type": "object",
