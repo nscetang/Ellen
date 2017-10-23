@@ -46,6 +46,24 @@
   "viewissues": {
     "type": "object",
     "comment": "viewissues",
-    "properties": {}
+    "properties": {
+      "viewissues": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "Summary": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
