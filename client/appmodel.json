@@ -42,5 +42,10 @@
         }
       }
     }
+  },
+  "viewissues": {
+    "type": "object",
+    "comment": "viewissues",
+    "properties": {}
   }
 }
