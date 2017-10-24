@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "isMyView": {
+      "type": "identifier",
+      "selector": ".subtle[href='']",
+      "control": "property.innerText",
+      "selectContains": "Assigned to Me"
+    },
+    "viewissueink": {
+      "type": "action",
+      "selector": "a[href='/mantisbt/view_all_bug_page.php']",
+      "control": "exists",
+      "selectContains": "ViewIssue List"
+    }
+  },
+  "connect": []
+}
