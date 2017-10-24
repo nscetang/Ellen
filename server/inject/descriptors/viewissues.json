@@ -6,35 +6,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {
-          "ID": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 3,
-            "control": "property.innerText"
-          },
-          "status": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selectIndex": 8,
-            "selector": "td",
-            "control": "property.innerText"
-          },
-          "Summary": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "control": "property.innerText",
-            "selectIndex": 10
-          }
-        }
+        "properties": {}
       },
       "update": {
         "type": "none"
