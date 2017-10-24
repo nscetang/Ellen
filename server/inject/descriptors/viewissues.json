@@ -40,6 +40,11 @@
         "type": "none"
       },
       "selectorAll": "#buglist tbody tr[bgcolor]"
+    },
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": ".floatleft",
+      "control": "exists"
     }
   },
   "connect": []
