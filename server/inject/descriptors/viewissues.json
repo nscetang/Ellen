@@ -50,5 +50,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isViewIssues"
+      ],
+      "screens": [
+        "viewissues"
+      ]
+    }
+  ]
 }
