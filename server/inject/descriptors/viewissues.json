@@ -39,7 +39,10 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tr td"
+      "selectorAll": "#buglist tbody tr td",
+      "frameSelector": [
+        null
+      ]
     }
   },
   "connect": []
