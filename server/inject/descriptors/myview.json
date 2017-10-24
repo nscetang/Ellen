@@ -3,9 +3,9 @@
   "properties": {
     "isMyView": {
       "type": "identifier",
-      "selector": ".subtlep[href=\"view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80\"]",
       "control": "exists",
-      "selectContains": "Assigned to Me"
+      "selectContains": "Assigned to Me",
+      "selector": ".subtle[href=\"view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80\"]"
     },
     "viewissueink": {
       "type": "action",
