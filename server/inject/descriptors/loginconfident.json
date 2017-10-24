@@ -22,7 +22,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "control": "text",
+      "selector": "[name=\"password\"]"
     },
     "errorMessage": {
       "type": "string",
@@ -40,7 +42,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button[value=\"Login\"]",
+      "control": "action:button"
     }
   },
   "connect": []
