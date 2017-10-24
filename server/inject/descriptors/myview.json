@@ -3,8 +3,8 @@
   "properties": {
     "isMyView": {
       "type": "identifier",
-      "selector": ".subtle[href='']",
-      "control": "property.innerText",
+      "selector": ".subtlep[href=\"view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80\"]",
+      "control": "action.link",
       "selectContains": "Assigned to Me"
     },
     "viewissueink": {
