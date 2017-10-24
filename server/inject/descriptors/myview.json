@@ -4,13 +4,13 @@
     "isMyView": {
       "type": "identifier",
       "selector": ".subtlep[href=\"view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80\"]",
-      "control": "action.link",
+      "control": "exists",
       "selectContains": "Assigned to Me"
     },
     "viewissueink": {
       "type": "action",
       "selector": "a[href='/mantisbt/view_all_bug_page.php']",
-      "control": "exists",
+      "control": "action.link",
       "selectContains": "ViewIssue List"
     }
   },
