@@ -11,7 +11,7 @@
       "type": "action",
       "selector": "a[href=\"/mantisbt/view_all_bug_page.php\"]",
       "control": "action.link",
-      "selectContains": "ViewIssue List"
+      "selectContains": "View Issues"
     }
   },
   "connect": [
