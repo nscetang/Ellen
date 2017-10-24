@@ -43,6 +43,11 @@
       "frameSelector": [
         null
       ]
+    },
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": ".floatleft",
+      "control": "exists"
     }
   },
   "connect": []
