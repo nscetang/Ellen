@@ -46,7 +46,7 @@
     },
     "isViewIssues": {
       "type": "identifier",
-      "selector": ".floatleft",
+      "selector": "#buglist",
       "control": "exists"
     }
   },
