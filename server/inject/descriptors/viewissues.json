@@ -39,7 +39,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tbody tr td",
+      "selectorAll": ".row-category",
       "frameSelector": [
         null
       ]
