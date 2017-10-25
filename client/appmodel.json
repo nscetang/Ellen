@@ -81,6 +81,10 @@
   "reportissue": {
     "type": "object",
     "comment": "",
-    "properties": {}
+    "properties": {
+      "category": {
+        "type": "select"
+      }
+    }
   }
 }
