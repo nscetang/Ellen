@@ -4,13 +4,6 @@
   "startScreen": "app.viewissues",
   "screens": [
     {
-      "id": "viewissues",
-      "name": "viewissues",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "viewissues"
-    },
-    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -35,6 +28,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "reportissue"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewissues",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

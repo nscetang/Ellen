@@ -6,15 +6,6 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.viewissues', {
-        views: {
-            app: {
-                controller: 'app_viewissues',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.viewissues');
-                }
-            }
-        }
     }).state('app.menu', {
         views: {
             app: {
@@ -48,6 +39,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_reportissue',
                 templateProvider: function (app) {
                     return app.templateProvider('app.reportissue');
+                }
+            }
+        }
+    }).state('app.viewissues', {
+        views: {
+            app: {
+                controller: 'app_viewissues',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.viewissues');
                 }
             }
         }
