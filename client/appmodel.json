@@ -55,33 +55,6 @@
       }
     }
   },
-  "viewissues": {
-    "type": "object",
-    "comment": "viewissues",
-    "properties": {
-      "ID": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Status": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Summary": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Add": {
-        "type": "action"
-      }
-    }
-  },
   "viewissuelist": {
     "type": "object",
     "comment": "viewissuelist",
