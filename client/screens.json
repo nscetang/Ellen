@@ -29,13 +29,6 @@
       "model": "loginconfident"
     },
     {
-      "id": "viewissues",
-      "name": "viewissues",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "viewissues"
-    },
-    {
       "id": "reportissue",
       "name": "reportissue",
       "sourceScreenId": "app.blank",
