@@ -67,6 +67,16 @@
         "type": "none"
       },
       "selectorAll": "#buglist tbody tr[bgcolor]"
+    },
+    "reportissuelink": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link"
+    },
+    "isviewissues": {
+      "type": "action",
+      "selector": ".floatleft",
+      "control": "exists"
     }
   },
   "connect": []
