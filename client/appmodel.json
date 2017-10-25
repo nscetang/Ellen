@@ -87,6 +87,9 @@
       },
       "Description": {
         "type": "string"
+      },
+      "Add": {
+        "type": "action"
       }
     }
   }
