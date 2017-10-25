@@ -30,10 +30,11 @@
       "model": "reportissue"
     },
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "viewissues",
+      "name": "viewissues",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
