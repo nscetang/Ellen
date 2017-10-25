@@ -33,11 +33,6 @@
             "selector": "td",
             "selectIndex": 10,
             "control": "property.innerText"
-          },
-          "Add": {
-            "type": "action",
-            "selector": "a[href=\"/mantisbt/bug_report_page.php\"]",
-            "control": "action.button"
           }
         }
       },

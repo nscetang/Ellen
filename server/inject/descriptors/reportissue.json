@@ -10,7 +10,7 @@
     "Description": {
       "type": "string",
       "selector": "[name=\"description\"]",
-      "control": "property.innerHTML"
+      "control": "text"
     }
   },
   "connect": []
