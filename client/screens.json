@@ -30,7 +30,7 @@
     },
     {
       "id": "viewissues",
-      "name": "ViewIssues",
+      "name": "viewissues",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "viewissues"
