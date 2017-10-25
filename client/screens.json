@@ -1,13 +1,14 @@
 {
   "id": "app",
   "name": "ellen",
-  "startScreen": "app.blank",
+  "startScreen": "app.viewissues",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "viewissues",
+      "name": "viewissues",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
+      "sourceScreenId": "app.blank",
+      "model": "viewissues"
     },
     {
       "id": "menu",
