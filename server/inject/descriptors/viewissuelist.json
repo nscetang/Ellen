@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "comment": "viewissuelist",
+  "properties": {
+    "ID": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      },
+      "selector": "td",
+      "selectIndex": 3,
+      "control": "property.innerText"
+    },
+    "Status": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      },
+      "selector": "td",
+      "selectIndex": 8,
+      "control": "property.innerText"
+    },
+    "Serverity": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      },
+      "selector": "td",
+      "control": "property.innerText",
+      "selectIndex": 7
+    },
+    "Summary": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      },
+      "selector": "td",
+      "control": "property.innerText",
+      "selectIndex": 10
+    }
+  },
+  "connect": [],
+  "selector": "#buglist tbody tr[bgcolor]"
+}
