@@ -71,7 +71,7 @@
           "type": "none"
         }
       },
-      "Summary": {
+      "TestSummary": {
         "type": "string",
         "update": {
           "type": "none"
