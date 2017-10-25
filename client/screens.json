@@ -30,8 +30,8 @@
       "model": "reportissue"
     },
     {
-      "id": "viewissuelist",
-      "name": "viewissuelist",
+      "id": "viewissues",
+      "name": "viewissues",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "viewissuelist"
