@@ -39,6 +39,13 @@
       "selectIndex": 10
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "viewissuelist"
+      ]
+    }
+  ],
   "selector": "#buglist tbody tr[bgcolor]"
 }
