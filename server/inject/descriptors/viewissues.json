@@ -70,7 +70,7 @@
     },
     "reportissuelink": {
       "type": "action",
-      "selector": "a",
+      "selector": "a[href='/mantisbt/bug_report_page.php']",
       "control": "action.link"
     },
     "isviewissues": {
