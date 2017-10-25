@@ -39,6 +39,13 @@
       "control": "property.innerText"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "viewissues"
+      ]
+    }
+  ],
   "selector": "#buglist tbody tr[bgcolor]"
 }
