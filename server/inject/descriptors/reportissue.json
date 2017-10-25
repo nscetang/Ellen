@@ -11,6 +11,11 @@
       "type": "string",
       "selector": "[name=\"description\"]",
       "control": "text"
+    },
+    "isreportissue": {
+      "type": "identifier",
+      "selector": ".button[value=\"Submit Report\"]",
+      "control": "exists"
     }
   },
   "connect": [
