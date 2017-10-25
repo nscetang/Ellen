@@ -8,13 +8,17 @@ ion-view data-comp-id="ionic-view.1"&gt;
         <button class="button button-icon ion-home" data-comp-id="button.2"></button>
     </ion-nav-buttons>
 </ion-nav-bar>
-<div class=" card" data-comp-id="div.1" ng-repeat="item in data.IssuesList">
+<ion-content data-comp-id="ionic-content.1">
+    <ion-checkbox class="" data-comp-id="checkbox.1" ng-model="item.selected"
+        ng-repeat="item in __multiselectModalData.options" style="font-size:10pt">
+        {{item.label || '&nbsp;'}}
+    </ion-checkbox>
     <div class="row" data-comp-id="row.1">
-        <div class="col" data-comp-id="column.2"
+        <div class="col" data-comp-id="column.1"
             style="border-right: solid rgb(33, 77, 88);">
             <div data-comp-id="text.1" ng-bind="item.ID">ID</div>
         </div>
-        <div class="col" data-comp-id="column.1">
+        <div class="col" data-comp-id="column.2">
             <div data-comp-id="text.2" ng-bind="item.status">Status</div>
         </div>
     </div>
@@ -23,4 +27,4 @@ ion-view data-comp-id="ionic-view.1"&gt;
             <div data-comp-id="text.3" ng-bind="item.Summary">Summary</div>
         </div>
     </div>
-</div>
+</ion-content>
