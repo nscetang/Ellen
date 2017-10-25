@@ -60,7 +60,10 @@
     "comment": "viewissues",
     "properties": {
       "ID": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "Status": {
         "type": "string"
