@@ -71,7 +71,7 @@
           "type": "none"
         }
       },
-      "TestSummary": {
+      "Serverity": {
         "type": "string",
         "update": {
           "type": "none"
