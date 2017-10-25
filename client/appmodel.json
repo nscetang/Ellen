@@ -76,6 +76,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "Summary": {
+        "type": "string"
       }
     }
   }
