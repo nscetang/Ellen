@@ -2,13 +2,18 @@
   "IssuesList": [
     {
       "ID": "1",
-      "status": "2",
+      "status": "New",
       "Summary": "3"
     },
     {
       "ID": "2",
-      "status": "3",
+      "status": "New",
       "Summary": "4"
+    },
+    {
+      "ID": "1",
+      "status": "Assigned",
+      "Summary": "3"
     }
   ]
 }
