@@ -54,35 +54,5 @@
         "type": "string"
       }
     }
-  },
-  "viewissuelist": {
-    "type": "object",
-    "comment": "viewissuelist",
-    "properties": {
-      "ID": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Status": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Serverity": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "Summary": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      }
-    }
   }
 }
