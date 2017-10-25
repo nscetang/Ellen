@@ -13,5 +13,12 @@
       "control": "text"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
