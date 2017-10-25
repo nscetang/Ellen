@@ -1,5 +1,6 @@
 {
   "ID": "ID",
   "Status": "STATUS",
-  "Serverity": "Serverity"
+  "Serverity": "Serverity",
+  "Summary": "Summary"
 }
