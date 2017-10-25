@@ -34,6 +34,13 @@
       "name": "BLANK",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "viewissues",
+      "name": "ViewIssues",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
