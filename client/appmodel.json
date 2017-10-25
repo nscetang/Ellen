@@ -69,7 +69,10 @@
         "type": "string"
       },
       "Summary": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "Add": {
         "type": "action"
