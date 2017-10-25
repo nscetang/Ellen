@@ -38,7 +38,7 @@
     "reportissuelink": {
       "type": "action",
       "selector": "a[href=\"/mantisbt/bug_report_page.php\"]",
-      "control": "property.innerText"
+      "control": "action.link"
     }
   },
   "connect": [
