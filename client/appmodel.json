@@ -105,6 +105,12 @@
         "update": {
           "type": "none"
         }
+      },
+      "reportissuelink": {
+        "type": "action"
+      },
+      "isviewissues": {
+        "type": "action"
       }
     }
   }
