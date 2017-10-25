@@ -81,5 +81,20 @@
         "type": "action"
       }
     }
+  },
+  "viewissuelist": {
+    "type": "object",
+    "comment": "viewissuelist",
+    "properties": {
+      "ID": {
+        "type": "string"
+      },
+      "Status": {
+        "type": "string"
+      },
+      "Summary": {
+        "type": "string"
+      }
+    }
   }
 }
