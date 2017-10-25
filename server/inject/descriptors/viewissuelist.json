@@ -34,6 +34,11 @@
       "selector": "td",
       "selectIndex": 10,
       "control": "property.innerText"
+    },
+    "reportissuelink": {
+      "type": "action",
+      "selector": "a[href=\"/mantisbt/bug_report_page.php\"]",
+      "control": "property.innerText"
     }
   },
   "connect": [],
