@@ -49,6 +49,15 @@
     "properties": {
       "Add": {
         "type": "action"
+      },
+      "ID": {
+        "type": "string"
+      },
+      "Status": {
+        "type": "string"
+      },
+      "Summary": {
+        "type": "string"
       }
     }
   },
