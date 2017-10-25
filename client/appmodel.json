@@ -87,7 +87,10 @@
     "comment": "viewissuelist",
     "properties": {
       "ID": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "Status": {
         "type": "string"
