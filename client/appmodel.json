@@ -77,5 +77,10 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
   }
 }
