@@ -93,7 +93,10 @@
         }
       },
       "Status": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "Summary": {
         "type": "string"
