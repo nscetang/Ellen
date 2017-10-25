@@ -74,14 +74,16 @@
       "control": "action.link"
     },
     "isviewissues": {
-      "type": "action",
+      "type": "identifier",
       "selector": ".floatleft",
       "control": "exists"
     }
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isviewissues"
+      ],
       "screens": [
         "viewissues"
       ]
